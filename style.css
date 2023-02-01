@@ -128,6 +128,18 @@ p {
 }
 
 
+.podnaslovi {
+	background: #0f0f0f;
+	color: white;
+	background: #0f0f0f;
+	font-size: 25px;
+	margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 70px;
+	padding: 2px;
+	display: inline-block;
+}
+
 .tekst1 span {
 	background: black;
 	color: white;
@@ -357,6 +369,19 @@ a {
   margin-left: 20px;
 	padding: 2px;
 	display: block;
+}
+
+.podnaslovi {
+	background: #0f0f0f;
+	color: white;
+	background: #0f0f0f;
+	font-size: 17px;
+	margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 70px;
+  margin-left: 70px;
+	padding: 2px;
+	display: inline-block;
 }
 
 
