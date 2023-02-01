@@ -12,6 +12,103 @@ body {
 	background-repeat: repeat;
 /*	height: 100vh;*/
 }
+
+
+/*POZADINE SVIH STRANICA*/
+.indexbody{
+	background-image:url("slike/kafanaaa.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #0a0a0a;
+	background-color: #0a0a0a;
+
+}
+.grckabody{
+	background-image:url("slike/grckazastava.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #0a0a0a;
+
+}
+
+.nemackabody{
+	background-image:url("slike/nemackazastava.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #0a0a0a;
+
+}
+.kafebody {
+	background-image:url("slike/kafe.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #0a0a0a;
+
+}
+
+.srbijabody {
+	background-image:url("slike/srbijazastava.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #0a0a0a;
+}
+
+.picovnikbody {
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #0a0a0a;
+}
+
+.tocenabody {
+	background-image:url("slike/toceno.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #0a0a0a;
+}
+
+.ceskabody {
+	background-image:url("slike/ceskazastava.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #0a0a0a;
+/*	background-size: 150px;             ovo je za velicinu slike */
+}
+
+.zestinabody {
+	background-image:url("slike/zestina.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #0a0a0a;
+}
+
+.belgijabody {
+	background-image:url("slike/belgijazastava.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #0a0a0a;
+}
+
+.ukbody {
+	background-image:url("slike/ukzastava.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #0a0a0a;
+}
+
+
+
+
 a {
 	font-size: 18px;
 	text-transform: uppercase;
