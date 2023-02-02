@@ -350,7 +350,7 @@ position: relative;
 
 /*ODAVDE KRECE SVE ZA TELEFON*/
 
-@media all and (max-width: 361px)
+@media all and (max-width: 365px)
 {
 
 	body {
@@ -387,12 +387,12 @@ position: relative;
   position: relative;
   top: 15px;
   left: 5px;
-  font-size: 23px;
+  font-size: 22px;
   color: black;
   background-color: #fdca01;
   margin-top: px;
   margin-left: 0px;
-  padding: 2px 5px;
+  padding: 2px 4px;
 
 }
 
