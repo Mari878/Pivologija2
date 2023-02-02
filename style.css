@@ -461,27 +461,31 @@ a {
 	background: #0f0f0f;
 	color: white;
 	font-size: 12px;
-	margin-top: 10px;
+	margin-top: -13px;
   margin-bottom: 0px;
   margin-right: 20px;
   margin-left: 20px;
 	padding: 2px;
 	display: block;
 }
+p.uvod span {
 
+
+	margin-top: -13px;
+}
 .podnaslovi {
 	background: #0f0f0f;
 	color: white;
 	background: #0f0f0f;
 	font-size: 17px;
 	margin-top: 20px;
-  margin-bottom: 0px;
-  margin-right: 70px;
-  margin-left: 70px;
+  margin-left: 24px;
 	padding: 2px;
 	display: inline-block;
 }
-
+ p.podnaslovi {
+ 	margin-left: 24px;
+ }
 
 .map{
 position: relative;
