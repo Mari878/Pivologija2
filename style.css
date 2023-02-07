@@ -1,16 +1,15 @@
+
 body {
 	margin:0;
     padding:0;
-    height:100vh;
-    height: 100%;
     width:100%;
 	font-family: poppins;
 	background: url("slike/kafanaaa.png");
-	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: repeat;
-/*	height: 100vh;*/
+	height: 100vh;
+
 }
 
 
@@ -52,10 +51,11 @@ body {
 
 .srbijabody {
 	background-image:url("slike/srbijazastava.png");
-	background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 	background-color: #0a0a0a;
+
 }
 
 .picovnikbody {
@@ -348,9 +348,9 @@ position: relative;
 
 
 
-/*ODAVDE KRECE SVE ZA TELEFON*/
-
-@media all and (max-width: 576px)
+/*ODAVDE KRECE SVE ZA TELEFON, za zadatu rezoluciju i menje rezolucije, sve vece od ovog idu kao dekstop*/
+@media screen and (max-device-width: 480px)
+/*@media all and (max-width: 365px)*/
 {
 
 	body {
@@ -364,6 +364,7 @@ position: relative;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: repeat;
+	
 }
 
 /* .logo i img su zuti logo nA POCETNOJ */
@@ -386,12 +387,12 @@ position: relative;
   position: relative;
   top: 15px;
   left: 5px;
-  font-size: 25px;
+  font-size: 22px;
   color: black;
   background-color: #fdca01;
   margin-top: px;
   margin-left: 0px;
-  padding: 2px 5px;
+  padding: 2px 4px;
 
 }
 
@@ -421,7 +422,239 @@ a {
 .nav-area ul li a {
 	text-decoration: none;
 	color: #fff;
-	padding: 8px 10px;
+	padding: 8px 5px;
+	display: block;
+	font-size: 10px;
+}
+.nav-area ul li:hover a {
+	background: #34495e;
+}
+.nav-area ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 90px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+.nav-area ul li:hover>ul {
+	display: block;
+}
+.nav-area ul ul li:hover a {
+	background: #262626;
+}
+.nav-area ul ul li {
+	position: relative;
+}
+.nav-area ul ul ul {
+	top: 0;
+	left: 100%;
+}
+.nav-area ul ul ul li:hover a {
+	background: #34495e;
+}
+
+
+
+/*tekst na pocetnoj stranici*/
+.uvod  span{
+	background: #0f0f0f;
+	color: white;
+	font-size: 12px;
+	margin-top: -13px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  margin-left: 20px;
+	padding: 2px;
+	display: block;
+}
+p.uvod span {
+
+
+	margin-top: -13px;
+}
+.podnaslovi {
+	background: #0f0f0f;
+	color: white;
+	background: #0f0f0f;
+	font-size: 17px;
+	margin-top: 20px;
+  margin-left: 24px;
+	padding: 2px;
+	display: inline-block;
+}
+ p.podnaslovi {
+ 	margin-left: 24px;
+ }
+
+.map{
+position: relative;
+    width: 100%;
+    height: 220px;
+    background-color: #262626;
+    margin-top: 50px;
+    }
+
+#map-container {
+    height: 100%;
+    width: 100%;
+    }
+
+/*ovo je kontakt adresa i ostalo*/
+.info1 {
+	font-size: 10px;
+	position: relative;
+	color: white;
+	background-color: #0f0f0f;
+	padding: 2px 20px;
+	margin-top: 30px;
+}
+
+.tekst1{
+	margin-top: 15px;
+	margin-bottom: 1px;
+}
+
+.tekst1 span {
+	background: black;
+	color: white;
+	padding: 0px 5px;
+	font-size: 13px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 40px;
+	display: inline-block;
+	
+}
+
+.cena {
+	background: black;
+    display: flex;
+    justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+
+.cena span {
+	background: black;
+	color: white;
+	font-size: 16px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	padding: 2px;
+	list-style: none;
+
+}
+.cenapica{
+	padding-right: 40px;
+}
+
+.cenapica span {
+	color: white;
+	font-size: 13px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px 2px;
+}
+
+.cenapica ul li{
+		list-style: none;
+
+}
+.imepodkategorije {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.imepodkategorije span{
+	position: relative;
+	font-size: 13px;
+	color: white;
+	background-color: black;
+	margin-right: 1200px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+
+
+
+
+
+/*ODAVDE KRECE SVE ZA TELEFON, ovo vazi za zadatu rezoluciju i manje rezolucije, sve vece od ovog idu kao dekstop*/
+
+@media screen and (max-device-width: 640px)
+{
+
+	body {
+	margin:0;
+    padding:0;
+    height:100vh;
+    width:100%;
+	font-family: poppins;
+	background: url("slike/kafanaaa.png");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: repeat;
+	
+}
+
+/* .logo i img su zuti logo nA POCETNOJ */
+.logo {
+	display: flex;
+	justify-content: left;
+
+}
+
+
+
+.naslov img {
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+
+/*ovo je PIVOLOGIJA BEER SHOP AND BAR*/
+.naslov h1 span {
+  position: relative;
+  top: 15px;
+  left: 5px;
+  font-size: 22px;
+  color: black;
+  background-color: #fdca01;
+  margin-top: px;
+  margin-left: 0px;
+  padding: 2px 4px;
+
+}
+
+a {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.nav-area {
+	background: #262626;
+	margin: 35px 0px 0px 0px;
+
+}
+.nav-area:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.nav-area ul {
+	list-style: none;
+	margin: 0px;
+
+}
+.nav-area>ul>li {
+	float: left;
+	position: relative;
+}
+.nav-area ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 8px 5px;
 	display: block;
 	font-size: 10px;
 }
@@ -569,3 +802,226 @@ position: relative;
 	margin-top: 1px;
 	margin-bottom: 1px;
 }
+
+
+@media screen and (max-device-width: 640px) {
+
+	body {
+	margin:0;
+    padding:0;
+    height:100vh;
+    width:100%;
+	font-family: poppins;
+	background: url("slike/kafanaaa.png");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: repeat;
+	
+}
+
+/* .logo i img su zuti logo nA POCETNOJ */
+.logo {
+	display: flex;
+	justify-content: left;
+
+}
+
+
+
+.naslov img {
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+
+/*ovo je PIVOLOGIJA BEER SHOP AND BAR*/
+.naslov h1 span {
+  position: relative;
+  top: 15px;
+  left: 5px;
+  font-size: 22px;
+  color: black;
+  background-color: #fdca01;
+  margin-top: px;
+  margin-left: 0px;
+  padding: 2px 4px;
+
+}
+
+a {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.nav-area {
+	background: #262626;
+	margin: 35px 0px 0px 0px;
+
+}
+.nav-area:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.nav-area ul {
+	list-style: none;
+	margin: 0px;
+
+}
+.nav-area>ul>li {
+	float: left;
+	position: relative;
+}
+.nav-area ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 8px 5px;
+	display: block;
+	font-size: 10px;
+}
+.nav-area ul li:hover a {
+	background: #34495e;
+}
+.nav-area ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 90px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+.nav-area ul li:hover>ul {
+	display: block;
+}
+.nav-area ul ul li:hover a {
+	background: #262626;
+}
+.nav-area ul ul li {
+	position: relative;
+}
+.nav-area ul ul ul {
+	top: 0;
+	left: 100%;
+}
+.nav-area ul ul ul li:hover a {
+	background: #34495e;
+}
+
+
+
+/*tekst na pocetnoj stranici*/
+.uvod  span{
+	background: #0f0f0f;
+	color: white;
+	font-size: 12px;
+	margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  margin-left: 20px;
+	padding: 2px;
+	display: block;
+}
+
+.podnaslovi {
+	background: #0f0f0f;
+	color: white;
+	background: #0f0f0f;
+	font-size: 17px;
+	margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 70px;
+  margin-left: 70px;
+	padding: 2px;
+	display: inline-block;
+}
+
+
+.map{
+position: relative;
+    width: 100%;
+    height: 220px;
+    background-color: #262626;
+    margin-top: 50px;
+    }
+
+#map-container {
+    height: 100%;
+    width: 100%;
+    }
+
+/*ovo je kontakt adresa i ostalo*/
+.info1 {
+	font-size: 10px;
+	position: relative;
+	color: white;
+	background-color: #0f0f0f;
+	padding: 2px 20px;
+	margin-top: 30px;
+}
+
+.tekst1{
+	margin-top: 15px;
+	margin-bottom: 1px;
+}
+
+.tekst1 span {
+	background: black;
+	color: white;
+	padding: 0px 5px;
+	font-size: 13px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 40px;
+	display: inline-block;
+	
+}
+
+.cena {
+	background: black;
+    display: flex;
+    justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+
+.cena span {
+	background: black;
+	color: white;
+	font-size: 16px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	padding: 2px;
+	list-style: none;
+
+}
+.cenapica{
+	padding-right: 40px;
+}
+
+.cenapica span {
+	color: white;
+	font-size: 13px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px 2px;
+}
+
+.cenapica ul li{
+		list-style: none;
+
+}
+.imepodkategorije {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.imepodkategorije span{
+	position: relative;
+	font-size: 13px;
+	color: white;
+	background-color: black;
+	margin-right: 1200px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+}
+
