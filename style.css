@@ -20,7 +20,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-color: #0a0a0a;
-	background-color: #0a0a0a;
 
 }
 .grckabody{
@@ -57,12 +56,13 @@ body {
 	background-color: #0a0a0a;
 
 }
-
 .picovnikbody {
+	background-image:url("slike/peakpx.jpg");
 	background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-color: #0a0a0a;
+
 }
 
 .tocenabody {
@@ -238,17 +238,6 @@ p {
 	display: inline-block;
 }
 
-.tekst1 span {
-	background: black;
-	color: white;
-	padding: 5px;
-	font-size: 25px;
-	margin-top: 25px;
-	margin-bottom: 20px;
-	margin-left: 60px;
-	display: inline-block;
-	
-}
 
 
 
@@ -285,22 +274,60 @@ p {
 .cenapica ul li{
 		list-style: none;
 
+
+}
+
+/*.tekst1 span {
+	background: black;
+	color: white;
+	padding: 5px;
+	font-size: 25px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	margin-left: 60px;
+	display: inline-block;
+	
 }
 
 
+h1 span .imepodkategorije {
+	position: relative;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+
+}
+*/
+
+.imepodkategorije {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
 .imepodkategorije span{
 	position: relative;
 	font-size: 20px;
 	color: white;
 	background-color: black;
-	margin-right: 1200px;
+	margin-right: 112px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.tekst1{
+	margin-top: 15px;
+	margin-bottom: 1px;
 }
 
-
-
-
-
-
+.tekst1 span {
+	background: black;
+	color: white;
+	padding: 0px 5px;
+	font-size: 20px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 40px;
+	display: inline-block;
+	
+}
 
 
 
@@ -326,7 +353,18 @@ position: relative;
 	margin-top: 50px;
 }
 
+.kontaktdopuna {
+	background: #0f0f0f;
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 70px;
+  margin-left: 70px;
+	padding: 2px;
+	display: inline-block;
 
+}
 
 
 
@@ -575,7 +613,7 @@ position: relative;
 	font-size: 13px;
 	color: white;
 	background-color: black;
-	margin-right: 1200px;
+	margin-right: 112px;
 	margin-top: 1px;
 	margin-bottom: 1px;
 }
