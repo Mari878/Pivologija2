@@ -165,13 +165,16 @@ a {
 }
 .nav-area ul ul li {
 	position: relative;
+	z-index:999; 
 }
 .nav-area ul ul ul {
 	top: 0;
 	left: 100%;
+
 }
 .nav-area ul ul ul li:hover a {
 	background: #34495e;
+
 }
 
 
@@ -385,7 +388,104 @@ p {
 
 
 
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
 
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin:  auto;
+    line-height: 20px;
+    font-size: 22px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px -50px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+
+
+}
+.socials a i{
+    font-size: 20px;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: auto;
+    padding: 20px;
+padding-bottom: 100px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
 
 
 
@@ -669,6 +769,74 @@ p.uvod span {
  .srbijabody{background-size: 130%}
  .nemackabody{background-size: 130%}
  .grckabody{background-size: 130%}
+ .ceskabody{background-size: 130%}
  .kafebody {
 	background-position: bottom 0px right 0px;
 	 }
+
+
+.footer-content h3{
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 1.5rem;
+}
+.footer-content p{
+    max-width: 250px;
+    margin:  auto;
+    line-height: 10px;
+    font-size: 11px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px -50px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+
+
+}
+.socials a i{
+    font-size: 5px;
+    width: 10px;
+}
+
+
+.footer-bottom{
+    background: #000;
+    width: auto;
+    padding: 10px;
+padding-bottom: 50px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 7px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 7px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 100;
+}
+
+.f-menu li a {
+	font-size: 10px;
+}
+.footer-menu {
+	float: left;
+}
