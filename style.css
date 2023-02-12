@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 body {
 	margin:0;
     padding:0;
@@ -8,7 +10,7 @@ body {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: repeat;
-	height: 100vh;
+	height: 300vh;
 
 }
 
@@ -491,6 +493,21 @@ display: block;
 
 
 
+
+.gotopbtn{
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background: #27ae60;
+  bottom: 20px;
+  right: 20px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  font-size: 22px;
+}
 
 
 
