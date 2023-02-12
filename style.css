@@ -110,7 +110,7 @@ body {
 	background-color: #0a0a0a;
 }
 .kontakbody{
-	background-image:url("slike/kontaktpozadina.jpg");
+	background-image:url("slike/pozadina.jpg");
 	background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -315,6 +315,7 @@ p {
 	margin-top: 1px;
 	margin-bottom: 1px;
 	margin-left: 40px;
+	margin-right: 40px;
 	display: inline-block;
 	
 }
@@ -511,6 +512,26 @@ display: block;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
 @media screen and (max-width: 320px)
 {
 /* .logo i img su zuti logo nA POCETNOJ */
@@ -1023,6 +1044,7 @@ p.uvod span {
 	margin-top: 1px;
 	margin-bottom: 1px;
 	margin-left: 40px;
+	margin-right: 40px;
 	display: inline-block;
 	
 }
