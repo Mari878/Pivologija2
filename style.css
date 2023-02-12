@@ -522,7 +522,7 @@ display: block;
 
 /*11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
 
-@media screen and (min-width: 310px)
+@media screen and (max-width: 310px)
 {
 /* .logo i img su zuti logo nA POCETNOJ */
 .logo {
@@ -876,7 +876,7 @@ float: left;
 
 
 /*ODAVDE KRECE SVE ZA TELEFON, za zadatu rezoluciju i menje rezolucije, sve vece od ovog idu kao dekstop*/
-@media screen and (min-width: 480px)
+@media screen and (min-width: 311px max-width: 480)
 
 {
 
@@ -1227,7 +1227,7 @@ float: left;
 
 
 /*ODAVDE KRECE SVE ZA TELEFON, za zadatu rezoluciju i menje rezolucije, sve vece od ovog idu kao dekstop*/
-@media screen and (min-width: 641px)
+@media screen and (min-width: 642px)
 
 {
 
