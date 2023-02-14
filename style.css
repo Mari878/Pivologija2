@@ -336,14 +336,14 @@ p {
 	position: relative;
     height: 450px;
     background-color: #262626;
-    width: 98%;
+    width: 90%;
 	margin: 10px;
     padding: 5px;
     }
 
 #map-container {
     height: 100%;
-    width: 100%;
+    width: 90%;
     }
 
 /*ovo je kontakt adresa i ostalo*/
