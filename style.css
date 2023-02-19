@@ -290,25 +290,23 @@ p {
 
 
 .imepodkategorije {
-	margin-top: 1px;
-	margin-bottom: 1px;
-}
-.imepodkategorije span{
 	position: relative;
 	font-size: 20px;
 	color: white;
-	background-color:rgba(0,0,0,0.7);
-	margin-right: 112px;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	margin: 3px;
+	background: rgba(0, 0, 0, 0.6) !important;
+	display: flex;
+    display: table;
 }
+
+
 .tekst1{
 	margin-top: 15px;
 	margin-bottom: 1px;
 }
 
 .tekst1 span {
-	background-color:rgba(0,0,0,0.7);
+	background-color:rgba(0,0,0);
 	color: white;
 	padding: 0px 5px;
 	font-size: 20px;
@@ -708,21 +706,19 @@ p.uvod span {
 	list-style: none;
 
 }
-.imepodkategorije {
-	margin-top: 1px;
-	margin-bottom: 1px;
-}
+
 ul {
 	margin-top: 1px;
 }
-.imepodkategorije span{
+
+.imepodkategorije {
 	position: relative;
 	font-size: 11px;
 	color: white;
-	background-color: black;
-	margin-right: 112px;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	margin: 3px;
+	background: rgba(0, 0, 0, 0.6) !important;
+	display: flex;
+    display: table;
 }
 
 
@@ -1083,17 +1079,13 @@ p.uvod span {
 
 }
 .imepodkategorije {
-	margin-top: 1px;
-	margin-bottom: 1px;
-}
-.imepodkategorije span{
 	position: relative;
 	font-size: 13px;
 	color: white;
-	background-color: black;
-	margin-right: 112px;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	margin: 3px;
+	background: rgba(0, 0, 0, 0.6) !important;
+	display: flex;
+    display: table;
 }
 
 
@@ -1430,17 +1422,12 @@ p.uvod span {
 
 }
 .imepodkategorije {
-	margin-top: 1px;
-	margin-bottom: 1px;
-}
-.imepodkategorije span{
 	position: relative;
 	font-size: 18px;
-	color: white;
-	background-color: black;
-	margin-right: 112px;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	margin: 3px;
+	background: rgba(0, 0, 0, 0.6) !important;
+	display: flex;
+    display: table;
 }
 
 
@@ -2131,14 +2118,14 @@ p.uvod span {
 	margin-top: 1px;
 	margin-bottom: 1px;
 }
-.imepodkategorije span{
+.imepodkategorije {
 	position: relative;
-	font-size: 20px;
+	font-size: 22px;
 	color: white;
-	background-color: black;
-	margin-right: 112px;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	margin: 3px;
+	background: rgba(0, 0, 0, 0.6) !important;
+	display: flex;
+    display: table;
 }
 
 
